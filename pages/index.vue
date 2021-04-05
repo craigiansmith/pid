@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <MainMenu />
+    <!--MainMenu /-->
     <Content />
   </div>
 </template>
