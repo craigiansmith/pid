@@ -1,7 +1,9 @@
 <template>
   <nav>
     <ul>
-      <li><NuxtLink to="/blog">Blog</NuxtLink></li>
+      <li><a href="mailto:hello@craigiansmith.com.au"
+                   class="hover:text-white">
+            Contact</a></li>
     </ul>
   </nav>
 </template>

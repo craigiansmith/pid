@@ -1,7 +1,7 @@
 <template>
   <div class="
 bg-gradient-to-br from-blue-400
-font-sans text-2xl text-black-900 screen border-r-22 border-dodgerblue-600 border-solid">
+font-sans text-2xl text-black-900 screen">
     <Nuxt />
   </div>
 </template>

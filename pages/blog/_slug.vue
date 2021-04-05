@@ -1,8 +1,14 @@
 <template>
   <div class="markdown-body">
-    <h2>{{ postInMarkdown.title }}</h2>
-    <h3>by  {{ postInMarkdown.author }}</h3>
-    <nuxt-content :document="postInMarkdown"></nuxt-content>
+		<div  v-if="postInMarkdown.length > 0">
+			<h2>{{ postInMarkdown.title }}</h2>
+			<h3>by  {{ postInMarkdown.author }}</h3>
+			<nuxt-content :document="postInMarkdown"></nuxt-content>
+		</div>
+		<div v-else>
+			<p>Nothing to see here, check back once in a while to see if there is a post.</p>
+
+		</div>
   </div>
 
 </template>
