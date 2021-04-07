@@ -1,7 +1,7 @@
 <template>
-  <div class="tracking-wider ">
+  <div class="tracking-wider mt-10">
     <h2 class="text-3xl text-white">Hi, I'm Craig. Here are some of the snippets and software that I have written:</h2>
-		<ul class="flex items-center">
+		<ul class="flex flex-wrap items-center">
 			<li class="
 				flex-auto
 				bg-yellow-500 hover:bg-yellow-800 hover:text-white p-3 m-3"><a href="https://pypi.org/project/gitlist/">

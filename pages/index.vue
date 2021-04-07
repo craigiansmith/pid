@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <MainMenu class="fixed top-0 right-0 p-3 mr-20" />
+    <MainMenu class="fixed top-0 right-0 p-3 md:mr-20" />
     <Content />
   </div>
 </template>
